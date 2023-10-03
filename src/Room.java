@@ -55,7 +55,10 @@ public class Room {
             return this.numberofbathroom;
         }
 
-
+        @Override //การเขียนทับ   
+        public String toString(){
+            return String.format("id: %s, Name: %s, size: %s, NumberOfBed: %s, NumberOfBathroom: %s", this.id, this.name, this.size, this.nOfBed, this.numberofbathroom);
+        }
 
 
 }
