@@ -58,4 +58,10 @@ public class Room {
     public int getNumberOfBathroom() {
         return this.nBathRoom;
     }
+
+    @Override
+    public String toString() {
+        return String.format("Id: %s, Name: %s, Size: %s, NumberOfBed: %s, NumberOfBathroom: %s",
+                this.id, this.name, this.size, this.nBathRoom, this.nBathRoom);
+    }
 }
