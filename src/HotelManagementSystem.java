@@ -26,8 +26,8 @@ public class HotelManagementSystem {
         int choice = scanner.nextInt();
 
         if (choice==1) {
-            //
-            
+            //TODO: Add room from user input
+
         } else if (choice==2) {
             for (Room room : rooms) {
                 System.out.println(room);
